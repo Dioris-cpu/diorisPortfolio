@@ -13,15 +13,19 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background: url("https://www.desktopbackground.org/p/2015/12/28/1064523_hd-wide-wallpapers-free-download-wallpapers-zone_1024x748_h.jpg") no-repeat center fixed;
+  /* background: url("https://www.desktopbackground.org/p/2015/12/28/1064523_hd-wide-wallpapers-free-download-wallpapers-zone_1024x748_h.jpg") no-repeat center fixed; */
   background-size: cover;
+  background: #8E0E00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 section {
   padding: 6rem 0;
 }
 
-.dioris{
+.dioris {
   height: 450px;
   width: 450px;
   margin-top: 5em;
@@ -493,9 +497,13 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 768px) {
   body {
-    background: url("https://www.desktopbackground.org/p/2015/12/28/1064523_hd-wide-wallpapers-free-download-wallpapers-zone_1024x748_h.jpg") no-repeat center fixed;
+    /* background: url("https://www.desktopbackground.org/p/2015/12/28/1064523_hd-wide-wallpapers-free-download-wallpapers-zone_1024x748_h.jpg") no-repeat center fixed; */
     /* background-color: #393057; */
     background-size: cover;
+   background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
   .landing-text h1 {
     font-size: 6rem;
@@ -591,5 +599,5 @@ input[type="submit"]:hover {
   }
   .paragraph {
     color: black;
-   }
+  }
 }
